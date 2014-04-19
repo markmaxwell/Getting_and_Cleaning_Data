@@ -1,9 +1,7 @@
 
-
-# Require packages used in the for analysis
+# Require packages used in the analysis
 library(data.table,quietly=TRUE)
 library(reshape2,quietly=TRUE)
-
 
 #### PART 1 - Merge the training and the test sets to create one data set ####
 
@@ -66,7 +64,8 @@ features$V2 <- tolower(features$V2)
     colnames(mydata) <- features$V2
 
 
-#### PART 2 - Extract only the measurements on the mean and standard deviation for each measurement ####
+#### PART 2 - Extract only the measurements on the mean and 
+#    standard deviation for each measurement ####
 
 
 # Define the desired pattern to subset on

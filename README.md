@@ -1,6 +1,6 @@
 
 
-README - Getting and Cleaning Data Peer Assignment
+### README - Getting and Cleaning Data Peer Assignment
 ========================================================
 
 #### This analysis consists of three scripts that explain the transformation of the Human Activity Recognition data from its raw form to a tidy dataset. 
